@@ -103,6 +103,7 @@ Grid.Row="2" Grid.Column="0"
                     Grid.Row="3" Grid.Column="0"/>
 
             <DatePicker
+                x:Name="dpkFecha"
                 Grid.Row="0" Grid.Column="1"/>
 
             <Picker x:Name="pkCiudades"

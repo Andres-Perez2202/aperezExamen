@@ -14,7 +14,7 @@
             HorizontalOptions="Center"
             Padding="25"
             TextColor="red"
-            FontSize="20"
+            FontSize="20" 
             CharacterSpacing="20"
             FontAttributes="Bold"/>
         

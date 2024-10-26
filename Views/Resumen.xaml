@@ -56,37 +56,45 @@
        FontAttributes="Bold"/>
 
             <Entry x:Name="NombreEntry" 
-       Grid.Row="0" Grid.Column="0"            
-       VerticalOptions="Center" HorizontalOptions="Center"
-        />
+                   Grid.Row="0" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="ApellidoEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="1" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="VAEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="2" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="FechaEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="3" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="CiudadEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="4" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="MontoEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="5" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="CuotaEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="6" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            
             <Entry x:Name="TotalEntry" 
-Grid.Row="0" Grid.Column="0"            
-VerticalOptions="Center" HorizontalOptions="Center"
- />
+                   Grid.Row="7" Grid.Column="1" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+
 
         </Grid>
         <Button x:Name="btnCerrar"
