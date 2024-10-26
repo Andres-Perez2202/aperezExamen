@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aperezExamen.Views.Resumen"
+             BackgroundColor="LightCyan">
+    <VerticalStackLayout>
+        <Label 
+    Text="Resumen"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center"
+    FontSize="22"
+    TextColor="Blue"
+    FontAttributes="Italic"/>
+
+        <Grid HorizontalOptions="Center" VerticalOptions="Center"> 
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Nombre" 
+       Grid.Row="0" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Apellido" 
+       Grid.Row="1" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="VA" 
+       Grid.Row="2" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Fecha" 
+       Grid.Row="3" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Ciudad" 
+       Grid.Row="4" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Monto Inicial" 
+       Grid.Row="5" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Cuota Mensual" 
+       Grid.Row="6" Grid.Column="0" 
+       FontAttributes="Bold"/>
+            <Label Text="Pago total" 
+       Grid.Row="7" Grid.Column="0" 
+       FontAttributes="Bold"/>
+
+            <Entry x:Name="NombreEntry" 
+       Grid.Row="0" Grid.Column="0"            
+       VerticalOptions="Center" HorizontalOptions="Center"
+        />
+            <Entry x:Name="ApellidoEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="VAEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="FechaEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="CiudadEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="MontoEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="CuotaEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+            <Entry x:Name="TotalEntry" 
+Grid.Row="0" Grid.Column="0"            
+VerticalOptions="Center" HorizontalOptions="Center"
+ />
+
+        </Grid>
+        <Button x:Name="btnCerrar"
+                Text="Cerrar"
+                Clicked="btnCerrar_Clicked"
+                BackgroundColor="Red"/>
+    </VerticalStackLayout>
+</ContentPage>
